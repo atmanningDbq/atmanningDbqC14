@@ -18,9 +18,9 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 /**
- * @author <your name>
+ * @author Manning New Branch
  * 
- *  DESCRIBE YOUR PROGRAM HERE
+ *  Sorting algorithms
  *
  */
 public class JFrameMain extends JFrame {

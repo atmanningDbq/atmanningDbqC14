@@ -10,7 +10,7 @@ import java.util.Vector;
  * 
  * Modify this comment header!
  * 
- * author:  YOUR NAME
+ * author:  Arthur Manning - dbq.edu
  * 
  * Description: 
  * 
