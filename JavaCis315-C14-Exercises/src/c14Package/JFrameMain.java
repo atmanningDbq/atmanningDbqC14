@@ -123,8 +123,15 @@ public class JFrameMain extends JFrame {
 				// Write the code to generate a list of random numbers
 				// allocate 1000 items in myList
 				// put the values in myList using the Math.random() method
-				// display the first 50 values of myList in the output JTextArea
+				myList = new int[1000];
+				for(int i=0; i<myList.length; i++ )
+					myList[i] = (int)(Math.random() * 1000 + 1);
 				
+				// display the first 50 values of myList in the output JTextArea
+				String str = "First 50 random numbers:\n";
+				for( int i=0; i<50; i++ )
+					str += myList[i] + ", ";
+				txtAreaSortoutput.append("\n" + str);
 				
 			}
 		});
